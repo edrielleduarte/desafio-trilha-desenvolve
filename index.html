@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>F4LIFE - Universitário</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>
+          <img class="logoImg" src="assets/f4life_editado.png" alt="logo" />
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#quemSomos">Quem Somos</a>
+            </li>
+            <li>
+              <a href="#quartos">Quartos Universitários</a>
+            </li>
+            <li>
+              <a href="#faleConosco">Fale Conosco</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="sectionUm">
+        <h2 class="tituloSession" id="quemSomos">
+          Quem Somos ?
+        </h2>
+        <img
+          class="imgUniversitario"
+          src="assets/undraw_studying_re_deca.svg"
+        />
+        <div>
+          <p class="textoBio">
+            F4Life é uma empresa de aluguéis de repúblicas para pessoas
+            universitárias. Similar aos modelos de Quinto Andar e Loft, a
+            empresa realiza reformas e prepara moradias para recepção de pessoas
+            universitárias em um ambiente específico e otimizado para a vida de
+            graduação. Quartos aconchegantes, confortavéis e também podendo ser
+            personalizado! <br />F4LIFE pensando sempre no seu conforto e
+            futuro!
+          </p>
+        </div>
+      </section>
+      <section class="sectionDois">
+        <h2 class="tituloQuartos" id="quartos">
+          Quartos Universitários
+        </h2>
+        <div class="produtos">
+          <img class="quartos" src="assets/quarto_3.jpg" alt="" />
+          <div class="enderecos">
+            <address>
+              <i class="fas fa-map-marker-alt" style="font-size: 12px;"></i> Rua
+              Da Alegria - Bairro: Colinas - R$ 1300.00
+            </address>
+            <p class="legenda">Quarto tom mais escuro solteiro</p>
+            <input type="submit" value="Ver Detalhes" class="btnQuartos" />
+          </div>
+        </div>
+        <div class="produtos">
+          <img class="quartos" src="assets/quarto_2.jpg" alt="" />
+          <div class="enderecos">
+            <address>
+              <i class="fas fa-map-marker-alt" style="font-size: 12px;"></i> Rua
+              Da Alegria - Bairro: Colinas - R$ 1300.00
+            </address>
+            <p class="legenda">Quarto tom mais claro solteiro</p>
+            <input type="submit" value="Ver Detalhes" class="btnQuartos" />
+          </div>
+        </div>
+        <div class="produtos">
+          <img class="quartos" src="assets/quarto_1.jpg" alt="" />
+          <div class="enderecos">
+            <address>
+              <i class="fas fa-map-marker-alt" style="font-size: 12px;"></i> Rua
+              Da Alegria - Bairro: Colinas - R$ 1300.00
+            </address>
+            <p class="legenda">Quarto tom mais claro solteiro</p>
+            <input type="submit" value="Ver Detalhes" class="btnQuartos" />
+          </div>
+        </div>
+        <div class="produtos">
+          <img class="quartos" src="assets/quarto_4.jpg" alt="" />
+          <div class="enderecos">
+            <address>
+              <i class="fas fa-map-marker-alt" style="font-size: 12px;"></i> Rua
+              Da Alegria - Bairro: Colinas - R$ 1300.00
+            </address>
+            <p class="legenda">Quarto basico solteiro</p>
+            <input type="submit" value="Ver Detalhes" class="btnQuartos" />
+          </div>
+        </div>
+      </section>
+      <section class="sectionTres">
+        <h2 class="tituloFaleConosco" id="faleConosco">Fale Conosco</h2>
+        <form action="">
+          <label for="nomeUser">Nome e Sobrenome</label>
+          <input
+            type="text"
+            id="nomeUser"
+            placeholder="Digite seu nome e Sobrenome"
+            class="input-padrao"
+            required
+          />
+
+          <label for="emailUser">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="emailUser"
+            class="input-padrao"
+            placeholder="Digite seu email com @"
+            required
+          />
+
+          <label for="telefoneUser">Telefone</label>
+          <input
+            type="tel"
+            id="telefoneUser"
+            class="input-padrao"
+            placeholder="Digite seu numero (xx) xxxxx-xxxx"
+            required
+          />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            cols="80"
+            rows="10"
+            id="mensagem"
+            class="input-padrao"
+            placeholder="Digite uma mensagem"
+          ></textarea>
+
+          <fieldset>
+            <legend>Como prefere o nosso contato?</legend>
+            <label for="email"
+              ><input
+                type="radio"
+                name="contato"
+                id="email"
+                value="email"
+                checked
+              />Email</label
+            >
+
+            <label for="telefone"
+              ><input
+                type="radio"
+                name="contato"
+                id="telefone"
+                value="telefone"
+              />Telefone</label
+            >
+
+            <label for="whatsapp"
+              ><input
+                type="radio"
+                name="contato"
+                id="whatsapp"
+                value="whatsapp"
+              />Whatsapp</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+              <option value="">Manhã</option>
+              <option value="">Tarde</option>
+              <option value="">Noite</option>
+            </select>
+          </fieldset>
+          <label class="checkbox"
+            ><input type="checkbox" name="" id="checkinfo" />Gostaria de receber
+            nossas novidades por email?</label
+          >
+
+          <input type="submit" value="Enviar Formulario" class="enviar" />
+          <div class="resposta" id="resposta"></div>
+        </form>
+      </section>
+    </main>
+    <footer class="containerFooter">
+      <img class="logoImgFooter" src="assets/f4life_editado.png" alt="" />
+
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
